@@ -11,9 +11,9 @@ body {
       color:Red;
 }
 .img-medium{
-    text-align:center;
-    height:200px;
-    width:200px;
+    position:auto;
+    height:500px;
+    width:500px;
 }
 div p{
   padding-right:10px;
