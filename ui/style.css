@@ -6,6 +6,8 @@ body {
 }
 #centre{
       text-align:center; 
+      font-family:Times;
+      font-size:10px;
 }
 .center {
     text-align: center;
