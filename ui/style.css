@@ -4,7 +4,9 @@ body {
     margin-top: 75px;
     
 }
-
+#centre{
+      text-align:center; 
+}
 .center {
     text-align: center;
 }
