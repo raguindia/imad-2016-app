@@ -11,7 +11,7 @@ body {
       color:Red;
 }
 .img-medium{
-    position:auto;
+    position:relative;
     height:500px;
     width:500px;
 }
