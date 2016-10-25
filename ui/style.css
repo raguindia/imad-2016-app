@@ -1,9 +1,12 @@
-body {
-    font-family: sans-serif;
-    background-color:lightblue;
-    margin-top: 75px;
+
     
+body {
+    font-family: cursive;
+    background-color: #e6adb3;
+    margin-top: 10px;
+    margin: auto;
 }
+
 #centre{
       text-align:center; 
       font-family:Times;
