@@ -1,19 +1,19 @@
 
     
 body {
-    font-family: cursive;
+    font-family: fantasy;
     background-color: #e6adb3;
     margin-top: 10px;
     margin: auto;
-    padding-top:20px;
+    padding-top: 20px;
     
 }
 
-#centre{
-      text-align:center; 
-      font-family:Times;
-      font-size:50px;
-      color:Red;
+#ccentre {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(80, 62, 62);
 }
 .img-medium{
     display: block;
@@ -25,10 +25,9 @@ body {
 div p{
   padding-right:10px;
   padding-left:10px;
-  color:green;
+  color: #755c5c;
   font-size:20px;
-  font-family:Times;
+  font-family: cursive;
     
 }    
-
 
