@@ -32,9 +32,9 @@ body{
     height:500px;
     width:500px;
 }
-div p{
-  padding-right:30px;
-  padding-left:30px;
+ p{
+  padding-right:50px;
+  padding-left:50px;
   color: #755c5c;
   font-size:20px;
   font-family: cursive;
