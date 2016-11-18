@@ -19,7 +19,12 @@ body .container h1 {
     margin: 0px;
     font-size: 100px;
 }
-
+body .container h2{
+    font-weight: normal;
+    padding: 25px 0 0;
+    margin: 0px;
+    font-size: 100px;
+}
 body .container p {
     font-size: 30px;
     margin: 5px 0 10px 10px;
@@ -29,4 +34,10 @@ body .container p {
 body a {
     color: orange;
     text-decoration: none;
+}
+body div ul{
+     font-size:30px;
+}
+div  li{
+    font-size :20px;
 }
