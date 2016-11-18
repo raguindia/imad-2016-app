@@ -1,3 +1,32 @@
-.container{
-         background-image:url(s-media-cache-ak0.pinimg.com/originals/44/f8/08/44f8082561655d503b39882499043b86.jpg); 
+
+body {
+    margin: 1px;
+    background-color: black;
+    font-family: Helvetica Neue, Helvetica;
+    color: white;
+}
+body .container {
+    background: url(d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX8491697.jpg) no-repeat top right;
+    height: 1398px;
+    width: 1600px;
+    margin: 0 0 0 auto;
+    padding-left: 10px;
+}
+
+body .container h1 {
+    font-weight: normal;
+    padding: 25px 0 0;
+    margin: 0px;
+    font-size: 130px;
+}
+
+body .container p {
+    font-size: 17px;
+    margin: 5px 0 10px 10px;
+    padding: 0px;
+}
+
+body a {
+    color: orange;
+    text-decoration: none;
 }
