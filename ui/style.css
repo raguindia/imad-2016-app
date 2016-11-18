@@ -35,9 +35,15 @@ body a {
     color: orange;
     text-decoration: none;
 }
-body div ul{
-     font-size:30px;
+body .container ul{
+    font-weight: normal;
+    padding: 25px 0 0;
+    margin: 0px;
+    font-size: 100px;
 }
-div  li{
-    font-size :20px;
+ body .container li{
+    font-weight: normal;
+    padding: 25px 0 0;
+    margin: 0px;
+    font-size: 100px;
 }
