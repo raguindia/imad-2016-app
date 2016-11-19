@@ -1,4 +1,4 @@
-var img = document.getElementById('IMG');
+var img = document.getElementById('img');
 var marginLeft = 0;
 function moveRight(){
          marginLeft = marginLeft+1;
