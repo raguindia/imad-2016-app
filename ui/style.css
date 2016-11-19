@@ -1,9 +1,12 @@
 body {
 	background-color:white;
 }
-.centre{
-     margin:auto;
+
+ .centre {
+    padding-left: 300px;
+    padding-right: 100px;
 }
+
 img {
 	height: 300px;
 	width: 300px;
