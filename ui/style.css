@@ -75,8 +75,9 @@ div li a {
     color:inherit;
 }
 #new a {
-    text-decoration:none;
-    color:green;
+    text-decoration: none;
+    color: #4a1705;
+    font-size: large;
 }
 #foot{
     position: relative;
@@ -89,7 +90,7 @@ div li a {
 	z-index: 1;
 	position: fixed;
 	width: 97.5%;
-	margin-top: -20px;
+	margin-top: -17px;
 	height: 60px;
 	background-color: #668284;
 	margin-bottom: 10px;
