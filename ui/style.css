@@ -100,3 +100,7 @@ p {
     border-bottom-right-radius: 15px;
     height: 50px;
 }
+div li a {
+    text-decoration:none;
+    color:inherit;
+}
