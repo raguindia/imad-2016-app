@@ -6,6 +6,12 @@ body {
     padding-left: 400px;
     padding-right: 100px;
 }
+#cen{
+    text-align:center;
+    padding-left:30px;
+    padding-right:30px;
+    
+}
  img {
 	height: 300px;
 	width: 300px;
@@ -162,10 +168,4 @@ h4 {
 #footer p {
 	position: relative;
 	padding-top: 15px;
-}
-#cen{
-    text-align:center;
-    padding-left:30px;
-    padding-right:30px;
-    
 }
