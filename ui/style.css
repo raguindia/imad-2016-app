@@ -6,13 +6,12 @@ body {
     padding-left: 300px;
     padding-right: 100px;
 }
-
 div img {
 	height: 300px;
 	width: 300px;
 	
 }
-centre img{
+div centre img{
       height:40px;
       width:40px;
 }
