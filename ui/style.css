@@ -20,32 +20,31 @@ img {
 #navbar {
 	position: fixed;
 	top:10px;
-	left:50%;
-	margin-left:-254px;
+	left:20%;
+	margin-left:-50px;
 }
 
 #header {
 	position: relative;
 	top: -10px;
-	background-color: #3c4543;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	height:100px;
 }
 
 ul{
 	list-style-type: none;
 	position: fixed;
-	margin: -10px;
+	margin: -50px;
 }
 
 li {
 	display: inline;
 	border: 2px solid #000000;
-	font-family: Futura, Tahoma, sans-serif;
-	color: #ffffff;
-	padding: 5px;
+	font-family:Verdana ;
+	padding: 50px;
 	border-radius: 5px 5px;
-	background-color: #cc0323
+	
 }
 
 #left{
@@ -84,7 +83,7 @@ p {
 
 #button{
 	border: 2px solid #000000;
-	float:left;
+	float:centre;
 	position: relative;
 	left: 229px;
 	bottom: -20px;
