@@ -1,6 +1,9 @@
 body {
 	background-color:white;
 }
+.centre{
+     margin:auto;
+}
 img {
 	height: 300px;
 	width: 300px;
