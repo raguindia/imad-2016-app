@@ -7,10 +7,14 @@ body {
     padding-right: 100px;
 }
 
-img {
+div img {
 	height: 300px;
 	width: 300px;
 	
+}
+centre img{
+      height:40px;
+      width:40px;
 }
 a {
     color: orange;
