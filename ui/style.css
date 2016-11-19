@@ -74,6 +74,10 @@ div li a {
     text-decoration:none;
     color:inherit;
 }
+#new a {
+    text-decoration:none;
+    color:green;
+}
 #foot{
     position: relative;
 	height: 50px;
