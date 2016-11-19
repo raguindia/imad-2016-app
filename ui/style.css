@@ -2,16 +2,16 @@ body {
 	background-color:white;
 }
 
- .centre {
+.centre {
     padding-left: 300px;
     padding-right: 100px;
 }
-div img {
+ img {
 	height: 300px;
 	width: 300px;
 	
 }
-div centre img{
+centre a img{
       height:40px;
       width:40px;
 }
