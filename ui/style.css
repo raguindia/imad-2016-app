@@ -13,7 +13,7 @@ a {
 
 #navbar {
     position: fixed;
-    top: 6px;
+    top: 25px;
     bottom: 50px;
     left: 20%;
     margin-left: -154px;
@@ -23,12 +23,13 @@ ul {
     list-style-type: none;
     position: fixed;
     margin: -13px;
+    font-size:medium;
 }
 
 li {
     display: inline;
     border: -1px solid #000000;
-    font-family: Verdana;
+    font-family: cursive;
     padding: 68px;
     border-radius: 5px 5px;
 	
