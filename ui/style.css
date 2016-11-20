@@ -94,6 +94,12 @@ div li a {
 	text-align:center;
 	 
 }
+#contact{
+      font-family:serif;
+      color:green;
+      font-size:14px;
+}
+
 
 #header {
 	z-index: 1;
