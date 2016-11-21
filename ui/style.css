@@ -1,7 +1,11 @@
 body {
 	background-color:white;
 }
-
+#date_time{
+    font-family:serif;
+    color:brown;
+    font-size:30px;
+}
 .card-container {
     cursor: pointer;
     height: 210px;
