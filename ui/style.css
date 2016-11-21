@@ -65,7 +65,7 @@ a {
     left: 35%;
     margin-left: -154px;
 }
-
+ 
 ul {
     list-style-type: none;
     position:fixed;
@@ -81,6 +81,7 @@ li {
     border-radius: 5px 5px;
 	
 }
+
 
 #left {
     padding-top: 200px;
