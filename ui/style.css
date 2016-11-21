@@ -2,11 +2,11 @@ body {
 	background-color:white;
 }
 .card-container {
-  cursor: pointer;
-  height: 150px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
+    cursor: pointer;
+    height: 210px;
+    perspective: 600;
+    position: relative;
+    width: 200px;
 }
 .card {
   height: 100%;
