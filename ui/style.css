@@ -99,10 +99,13 @@ font-size:large;
     width: 20%;
     float: left;
 }
+
 p {
-    font-family: inherit;
     font-size: 1em;
+    font-style: normal;
+    font-family: Times New Roman;
 }
+
 
 #right {
     padding-top: 100px;
