@@ -18,6 +18,10 @@ body {
     height: 232px;
     width: 232px;
 }
+a img{
+    height:40px;
+    width:40px;
+}
 
 a {
     color: orange;
