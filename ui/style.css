@@ -15,14 +15,10 @@ body {
     
 }
  img {
-	height: 300px;
-	width: 300px;
-	
+    height: 232px;
+    width: 232px;
 }
-a img{
-      height:40px;
-      width:40px;
-}
+
 a {
     color: orange;
     text-decoration: none;
@@ -32,7 +28,7 @@ a {
     position: fixed;
     top: 25px;
     bottom: 50px;
-    left: 20%;
+    left: 35%;
     margin-left: -154px;
 }
 
@@ -53,7 +49,7 @@ li {
 }
 
 #left {
-    padding-top: 50px;
+    padding-top: 233px;
     padding-bottom: 50px;
     width: 20%;
     float: left;
@@ -87,17 +83,14 @@ div li a {
     color: #4a1705;
     font-size: large;
 }
-#foot{
+#foot {
     position: relative;
-	height: 50px;
-	clear: both;
-	text-align:center;
-	 
-}
-#contact {
-    font-family: serif;
-    color: green;
-    font-size: 15px;
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 14px;
+    font-family: monospace;
 }
 
 #header {
