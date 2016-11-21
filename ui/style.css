@@ -52,7 +52,7 @@ li {
 }
 
 #left {
-    padding-top: 160px;
+    padding-top: 200px;
     padding-bottom: 50px;
     width: 20%;
     float: left;
@@ -63,7 +63,7 @@ p {
 }
 
 #right {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     width: 75%;
     float: right;
