@@ -179,8 +179,9 @@ h4 {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: -10px;
-	font-family:serif;
 	color: #000000;
+	font-style: normal;
+    font-family: Times New Roman;
 }
 h2 {
     font-size:18px;
