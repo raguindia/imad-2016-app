@@ -38,7 +38,7 @@ a {
 
 ul {
     list-style-type: none;
-    position: fixed;
+    position: absolute;
     margin: -13px;
     font-size:medium;
 }
