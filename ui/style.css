@@ -81,7 +81,9 @@ li {
     border-radius: 5px 5px;
 	
 }
-
+#navbar > ul > li > a:hover {
+color: green;
+}
 
 #left {
     padding-top: 200px;
