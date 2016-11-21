@@ -26,6 +26,306 @@
                     list-style-type: none;
                     position: absolute;
                 }
+                
+    
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: 150%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/*clearfixes*/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.main-container {
+  background: #fff;
+  max-width: 1000px;
+  margin: 25px auto 25px auto;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  padding: 25px;
+}
+
+.container:last-of-type {
+  padding-top: 0px;
+}
+/*animation element*/
+
+.animation-element {
+  position: relative;
+  width: 22%;
+  margin: 0% 1.5% 3% 1.5%;
+  float: left;
+}
+/*4 grid layout*/
+
+.animation-element:nth-of-type(4n-3) {
+  clear: left;
+}
+
+.animation-element:nth-of-type(4n-2) {}
+
+.animation-element:nth-of-type(4n-1) {}
+
+.animation-element:nth-of-type(4n-0) {
+  clear: right;
+}
+/*left fancy animastion*/
+
+@-moz-keyframes left_animation {
+  0% {
+    opacity: 0;
+    -moz-transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -moz-transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@-webkit-keyframes left_animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@keyframes left_animation {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate3d(100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    transform: rotate(-40deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+/*right fancy animation*/
+
+@-moz-keyframes right_animation {
+  0% {
+    opacity: 0;
+    -moz-transform: rotate(180deg) translate3d(-100%, -100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -moz-transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@-webkit-keyframes right_animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(180deg) translate3d(-100%, 100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+
+@keyframes right_animation {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translate3d(-100%, -100%, 0);
+  }
+  75% {
+    opacity: 0.8;
+    transform: rotate(40deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) translate3d(0%, 0%, 0);
+  }
+}
+/*Multi-step animation*/
+
+.multi-step-left .gallery,
+.multi-step-right .gallery {
+  position: relative;
+  opacity: 0;
+  /*prevents flicker as animation occurs*/
+}
+
+.multi-step-left.in-view .gallery {
+  -moz-animation: left_animation 1300ms ease-in both;
+  -webkit-animation: left_animation 1300ms ease-in both;
+  animation: left_animation 1300ms ease-in both;
+}
+
+.multi-step-right.in-view .gallery {
+  -moz-animation: right_animation 1300ms linear both;
+  -webkit-animation: right_animation 1300ms linear both;
+  animation: right_animation 1300ms linear both;
+}
+
+.gallery {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0% 1.33% 2.66% 1.33%;
+}
+
+.gallery .image {
+  background: #F5F5F5;
+  border: solid 1px #EAEAEA;
+  height: 0px;
+  width: 80%;
+  width: calc(100% - 40px);
+  padding-bottom: 100%;
+  padding-bottom: calc(100% - 40px);
+  background-size: cover;
+  background-position: bottom center;
+  position: relative;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.gallery:hover .image,
+.gallery:active .image {}
+
+.gallery .image-caption {
+  position: relative;
+  background: #fff;
+  background: #efefef;
+  color: #333;
+  font-size: 95%;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+}
+
+.gallery .image-caption i {
+  color: #aaa;
+  margin: 0px 7px 0px 0px;
+  display: inline-block;
+}
+
+.gallery .image-caption i:last-child {
+  margin: 0px 0px 0px 7px;
+}
+
+.gallery .readmore {
+  padding: 5px 12px;
+  cursor: pointer;
+  text-align: center;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 90%;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .readmore:hover,
+.gallery .readmore:active {
+  background: #34495e;
+}
+
+.gallery .title {
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 400;
+}
+
+.gallery .subtitle {
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.gallery .social {
+  position: absolute;
+  top: 0px;
+  right: -40px;
+  width: calc(35px);
+}
+
+.gallery .social i {
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 35px;
+  font-size: 125%;
+  background: #2c3e50;
+  line-height: 35px;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  cursor: pointer;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .social i:hover,
+.gallery .social i:active {
+  background: #34495e;
+}
+/*media queries for small devices*/
+
+@media screen and (max-width: 678px) {
+  .main-container {
+    margin: 25px;
+  }
+  .animation-element,
+  .animation-element:nth-of-type(4n-3),
+  .animation-element:nth-of-type(4n-2),
+  .animation-element:nth-of-type(4n-1),
+  .animation-element:nth-of-type(4n-0) {
+    width: 100%;
+    margin: 0% 0% 25px 0%;
+  }
+}
                
 </style>
 		<title>blog</title>
@@ -125,8 +425,137 @@
                                     padding-right: 80px;">
                              <p>It's never too late to become the person you could be! Do Not Give Up.The beginning is always the hardest.</p>
 	                         <p>You have the ability to choose which way you want to go. You have to believe great things are going to happen in your life.</p>
-
                         </div>
+                        
+                        <!--Image alignment-->
+                        <div class="main-container">
+                          <div class="container cf">
+                            <!-- Staff 1 -->
+                            <div class="animation-element multi-step-left cf">
+                              <div class="gallery">
+                                <h3 class="title">Article-One</h3>
+                                <h4 class="subtitle">Focus</h4>
+                                <div class="image" style="background-image: url(https://s-media-cache-ak0.pinimg.com/736x/af/32/a6/af32a6db6799496edd3e948efb07ed04.jpg)">
+                                  <div class="social">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-google-plus"></i>
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                </div>
+                                <h5 class="image-caption">
+                                  <i class="fa fa-quote-left"></i>
+                                   Concentrate all your thoughts upon the work at hand. The sun's rays do not burn until brought to a focus.
+                                  <i class="fa fa-quote-right"></i>
+                                </h5>
+                                <div class="readmore">All the best !
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Staff 2 -->
+                            <div class="animation-element multi-step-right cf">
+                              <div class="gallery">
+                                <h3 class="title">Article-Two</h3>
+                                <h4 class="subtitle">Hardwork</h4>
+                                <div class="image" style="background-image: url(https://www.brainyquote.com/photos/m/margaretmead379098.jpg)">
+                                  <div class="social">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-google-plus"></i>
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                </div>
+                                <h5 class="image-caption">
+                                  <i class="fa fa-quote-left"></i>
+                                  Find new creative areas to expand
+                                  <i class="fa fa-quote-right"></i>
+                                </h5>
+                                <div class="readmore">Good Luck ! 
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Staff 3 -->
+                            <div class="animation-element multi-step-left cf">
+                              <div class="gallery">
+                                <h3 class="title">Article-Three</h3>
+                                <h4 class="subtitle">Determination</h4>
+                                <div class="image" style="background-image: url(http://www.searchquotes.com/sof/images/picture_quotes/184312_20140307_000308_IMG_1511424871393.jpeg)">
+                                  <div class="social">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-google-plus"></i>
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                </div>
+                                <h5 class="image-caption">
+                                  <i class="fa fa-quote-left"></i>
+                                  Expanding possibilities with determination
+                                  <i class="fa fa-quote-right"></i>
+                                </h5>
+                                <div class="readmore">Dream will come true !
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Staff 4 -->
+                            <div class="animation-element multi-step-right cf">
+                              <div class="gallery">
+                                <h3 class="title">Article-Four</h3>
+                                <h4 class="subtitle">Perserverence</h4>
+                                <div class="image" style="background-image: url(http://media-cache-ec0.pinimg.com/736x/a4/11/07/a41107d183cf1056713c5850f284b04a.jpg)">
+                                  <div class="social">
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-google-plus"></i>
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                </div>
+                                <h5 class="image-caption">
+                                  <i class="fa fa-quote-left"></i>
+                                  Increasing skills, determination and workplace unity
+                                  <i class="fa fa-quote-right"></i>
+                                </h5>
+                                <div class="readmore">You will Achieve your Dream !
+                                </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                        
+                        
+  
+        <script>
+                 var $animation_elements = $('.animation-element');
+                var $window = $(window);
+                
+                function check_if_in_view() {
+                  var window_height = $window.height();
+                  var window_top_position = $window.scrollTop();
+                  var window_bottom_position = (window_top_position + window_height);
+                
+                  $.each($animation_elements, function() {
+                    var $element = $(this);
+                    var element_height = $element.outerHeight();
+                    var element_top_position = $element.offset().top;
+                    var element_bottom_position = (element_top_position + element_height);
+                
+                    //check to see if this current container is within viewport
+                    if ((element_bottom_position >= window_top_position) &&
+                      (element_top_position <= window_bottom_position)) {
+                      $element.addClass('in-view');
+                    } else {
+                      $element.removeClass('in-view');
+                    }
+                  });
+                }
+                
+                $window.on('scroll resize', check_if_in_view);
+                $window.trigger('scroll');
+        </script>
+        <!--image alig over-->
+                                              
                         
                         
                        <div id="last" style="color: #CDDC39;">
@@ -138,8 +567,7 @@
                                 <br/>
                                 <p><strong>CONTACT :</strong> 18 a palani street, sheshadripalayam,kanchipuram-631501 ,Tamilnadu,INDIA | Tel: (+91) 9944724799</p>
                             </center>
-                        
-        			</div>
+        		        </div>
                         
                        
                       
