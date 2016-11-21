@@ -1,6 +1,7 @@
 body {
 	background-color:white;
 }
+
 .card-container {
     cursor: pointer;
     height: 210px;
@@ -83,6 +84,8 @@ li {
 }
 #navbar > ul > li > a:hover {
 color: green;
+font-family:serif;
+font-size:large;
 }
 
 #left {
