@@ -14,15 +14,14 @@ body {
     background-color: beige;
     
 }
- img {
-    height: 232px;
-    width: 232px;
+img {
+    height: 220px;
+    width: 220px;
 }
-a img{
-    height:40px;
-    width:40px;
+a img {
+    height: 40px;
+    width: 40px;
 }
-
 a {
     color: orange;
     text-decoration: none;
@@ -53,7 +52,7 @@ li {
 }
 
 #left {
-    padding-top: 233px;
+    padding-top: 160px;
     padding-bottom: 50px;
     width: 20%;
     float: left;
