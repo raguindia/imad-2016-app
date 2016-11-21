@@ -168,16 +168,16 @@ div li a {
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 }
-#l{
-    float:right;
-	margin-right: 5px;
-	padding-top: 5px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
+#l {
+    float: right;
+    margin-right: -172px;
+    padding-top: 28px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
 }
     
-}
+
 
 h4 {
 	margin-left: 5px;
