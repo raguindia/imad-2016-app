@@ -5,6 +5,7 @@ body {
     font-family:serif;
     color:brown;
     font-size:30px;
+    float:right;
 }
 .card-container {
     cursor: pointer;
