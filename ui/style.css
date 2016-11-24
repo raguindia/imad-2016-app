@@ -233,3 +233,12 @@ h2 {
 	position: relative;
 	padding-top: 15px;
 }
+.first{
+    color:brown;        
+}
+.first img{
+     float:left;
+     height:400px;
+     width:400px;
+     
+}
