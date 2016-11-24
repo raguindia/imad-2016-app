@@ -233,12 +233,12 @@ h2 {
 	position: relative;
 	padding-top: 15px;
 }
-.first{
+#first{
     font-size: 20px;
     color: rgb(255, 235, 59);
     font-family: cursive;
     }
-.first img{
+#first img{
      float:left;
      height:50%;
      width:50%;
