@@ -112,7 +112,7 @@ p {
     padding-bottom: 50px;
     width: 75%;
     float: right;
-    color: #4CAF50;
+    color: #70b173;
 }
 
 #bottom_left{
@@ -190,7 +190,7 @@ h4 {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: -10px;
-	color: #636363;
+	color: gray;
 	font-style: normal;
     font-family: Times New Roman;
 }
