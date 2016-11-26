@@ -3,7 +3,7 @@ body {
 }
 #date_time{
     font-family:serif;
-    color:brown;
+    color: #3ad4c5;
     font-size:20px;
     float:right;
 }
@@ -60,7 +60,7 @@ a img {
     width: 40px;
 }
 a {
-    color: orange;
+    color: #92de39;
     text-decoration: none;
 }
 
