@@ -484,7 +484,15 @@
 	             </div>
 	             
 	             <div id= "rbook">
-                <h2>Books online </h2>
+                <h2><span class="blink_me">Books Online</span></h2>
+                <script>
+                function blinker() {
+                    $('.blink_me').fadeOut(500);
+                    $('.blink_me').fadeIn(500);
+                }
+
+setInterval(blinker, 1000);
+                </script>
                 <a href ="http://amzn.in/gsUHW5A" target="_blank"><img src ="http://ecx.images-amazon.com/images/I/51bGsO-w5FL.jpg"></a> 
                 <a href ="http://www.amazon.in/Life-What-Make-Preeti-Shenoy/product-reviews/9380349300/ref=dpx_acr_txt?showViewpoints=1" target="_blank" style="text-decoration:none;"><p>Reviews</p></a>
                 <a href="http://amzn.in/f0fGhSb" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41OTIrrNXTL.jpg"></a>
