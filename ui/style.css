@@ -85,6 +85,7 @@ li {
     font-family: cursive;
     padding: 68px;
     border-radius: 5px 5px;
+    color: gray;
 	
 }
 #navbar > ul > li > a:hover {
@@ -101,9 +102,10 @@ font-size:large;
 }
 
 p {
-    font-size: 1em;
-    font-style: normal;
-    font-family: Times New Roman;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    color: gray;
 }
 
 
@@ -112,7 +114,7 @@ p {
     padding-bottom: 50px;
     width: 75%;
     float: right;
-    color: #70b173;
+    
 }
 
 #bottom_left{
