@@ -14,7 +14,10 @@ app.get('/profile', function (req, res) {
 		
 app.get('/blog', function (req, res) {		
   res.sendFile(path.join(__dirname, 'ui', 'blog.html'));		
-});		
+});	
+app.get('/contact', function (req, res) {		
+  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));		
+});	
 		
 		
 app.get('/ui/style.css', function (req, res) {		
